@@ -1,13 +1,13 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Aurora Administrador";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4" style="color: #3498db;">Aurora Administrador</h1>
+    <p style="font-size: 18px;">Administra tu discoteca desde aquí </p>
 
-    <!-- Agrega un enlace o un botón que redirija a la vista View.cshtml -->
-    <a asp-action="View" asp-controller="IngresoFiestas" class="btn btn-primary">Crear una nueva Fiesta</a>
-
+    <!-- Enlaces con estilos para los botones -->
+    <a asp-action="View" asp-controller="IngresoFiestas" class="btn btn-primary" style="margin-right: 10px;">Crear una nueva Fiesta</a>
+    <a asp-action="Views" asp-controller="VerReservita" class="btn btn-success" id="VerReservas">Ver Reservas</a>
 </div>
 

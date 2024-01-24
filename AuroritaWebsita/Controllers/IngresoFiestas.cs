@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using AuroritaWebsita.Models;
-using Newtonsoft.Json;
 using System;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace AuroritaWebsita.Controllers
 {
@@ -121,10 +121,7 @@ namespace AuroritaWebsita.Controllers
         // GET: IngresoFiestas/View
         public ActionResult View()
         {
-            // Puedes realizar lógica aquí si es necesario antes de mostrar la vista
-            // Por ejemplo, obtener datos de la base de datos u otro procesamiento.
 
-            // En este caso, simplemente devuelve la vista "View.cshtml" en la carpeta "Fiestas"
             return View("~/Views/Fiestas/View.cshtml");
         }
     }
